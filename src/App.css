@@ -2,20 +2,49 @@
 .mainDesign{
   width: 100%;
   height: 100vh;
-  background-color: grey;
+  background-color: rgb(120, 53, 151);
+  float: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.image{
+  position: absolute;
+  left: 15%;
+  top: 31%;
+  width: 550px;
+  height: 450px;
+  background-color: aliceblue;
+  background-image: url("https://w0.peakpx.com/wallpaper/878/821/HD-wallpaper-studio-color-ultra-music-microphones-studio-studio-mic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+  
+
+.text{
+  position: absolute;
+  left: 45%;
+  top: 31%;
+  width: 550px;
+  height: 450px;
+  color: aliceblue;
+
+}
+
+.social_media1_ul{
+  color: aliceblue;
+  list-style-type: none;
+
   float: left;
 }
 
-.Divsection{
-
-  
-.whoAmI{
-  width: 100%;
-  min-height: 50px;
-  background: purple;
-  color: white;
-  margin: 5px;
-  
+.social_media1_ul li{
+padding: 10px;
+  float: left;
+  font-size: 30px;
 }
 
+.icons:hover{
+  cursor: pointer;
 }
